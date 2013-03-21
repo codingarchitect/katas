@@ -11,6 +11,8 @@ namespace CodingArchitect.Katas
         {
             if(arabicNumeral == 0)
                 return "";
+            if (arabicNumeral == 4)
+                return "IV";
             return "I" + ToRoman(arabicNumeral - 1);
         }
     }
