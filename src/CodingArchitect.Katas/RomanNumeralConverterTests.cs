@@ -17,17 +17,19 @@ namespace CodingArchitect.Katas
         }
 
         [Test]
-        public void Test1ReturnsI()
+        public void TestToRoman()
         {
-            var roman = 1.ToRoman();
-            Assert.AreEqual("I", roman);
-        }
+            var testData = new Dictionary<int, string>
+            {
+                { 1, "I" },
+                { 2, "II" }
+            };
 
-        [Test]
-        public void Test2ReturnsII()
-        {
-            var roman = 2.ToRoman();
-            Assert.AreEqual("II", roman);
+            foreach (var arabic in testData.Keys)
+            {
+                var roman = arabic.ToRoman();
+                Assert.AreEqual(testData[arabic], roman);
+            }
         }
     }
 }
