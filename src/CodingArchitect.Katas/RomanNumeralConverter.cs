@@ -13,12 +13,12 @@ namespace CodingArchitect.Katas
                 return "";
             if (arabicNumeral >= 10)
                 return "X" + ToRoman(arabicNumeral - 10);
-            if (arabicNumeral == 9)
-                return "IX";
+            if (arabicNumeral >= 9)
+                return "IX" + ToRoman(arabicNumeral - 9);
             if (arabicNumeral >= 5)
                 return "V" + ToRoman(arabicNumeral - 5);
-            if (arabicNumeral == 4)
-                return "IV";            
+            if (arabicNumeral >= 4)
+                return "IV" + ToRoman(arabicNumeral - 4);            
             return "I" + ToRoman(arabicNumeral - 1);
         }
     }
