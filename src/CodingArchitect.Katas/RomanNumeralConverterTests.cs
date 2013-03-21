@@ -31,7 +31,9 @@ namespace CodingArchitect.Katas
                 { 8, "VIII" },
                 { 9, "IX" },
                 { 10, "X" },
-                { 11, "XI" }
+                { 11, "XI" },
+                { 40, "XL" },
+                { 50, "L" }
             };
 
             foreach (var arabic in testData.Keys)

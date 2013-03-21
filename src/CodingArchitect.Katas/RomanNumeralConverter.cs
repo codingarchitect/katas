@@ -9,6 +9,8 @@ namespace CodingArchitect.Katas
     {
         private static readonly IDictionary<int, string> ConversionFactors = new Dictionary<int, string>
         {
+            { 50, "L" },
+            { 40, "XL" },
             { 10, "X" },
             { 9, "IX" },
             { 5, "V" },
