@@ -23,7 +23,8 @@ namespace CodingArchitect.Katas
             {
                 { 1, "I" },
                 { 2, "II" },
-                { 3, "III" }
+                { 3, "III" },
+                { 4, "IV" }
             };
 
             foreach (var arabic in testData.Keys)
