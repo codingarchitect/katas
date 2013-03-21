@@ -22,7 +22,8 @@ namespace CodingArchitect.Katas
             var testData = new Dictionary<int, string>
             {
                 { 1, "I" },
-                { 2, "II" }
+                { 2, "II" },
+                { 3, "III" }
             };
 
             foreach (var arabic in testData.Keys)
