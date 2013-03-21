@@ -13,7 +13,7 @@ namespace CodingArchitect.Katas
                 return "";
             if (arabicNumeral == 1)
                 return "I";
-            return "I" + ToRoman(1);
+            return "I" + ToRoman(arabicNumeral - 1);
         }
     }
 }
