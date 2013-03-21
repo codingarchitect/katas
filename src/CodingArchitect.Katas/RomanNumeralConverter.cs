@@ -9,7 +9,9 @@ namespace CodingArchitect.Katas
     {
         public static string ToRoman(this int arabicNumeral)
         {
-            return "";
+            if(arabicNumeral == 0)
+                return "";
+            return "I";
         }
     }
 }
