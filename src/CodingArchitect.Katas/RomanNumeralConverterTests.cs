@@ -22,5 +22,12 @@ namespace CodingArchitect.Katas
             var roman = 1.ToRoman();
             Assert.AreEqual("I", roman);
         }
+
+        [Test]
+        public void Test2ReturnsII()
+        {
+            var roman = 2.ToRoman();
+            Assert.AreEqual("II", roman);
+        }
     }
 }
