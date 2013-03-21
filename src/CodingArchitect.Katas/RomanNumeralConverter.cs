@@ -11,7 +11,9 @@ namespace CodingArchitect.Katas
         {
             if(arabicNumeral == 0)
                 return "";
-            return "I";
+            if (arabicNumeral == 1)
+                return "I";
+            return "II";
         }
     }
 }
